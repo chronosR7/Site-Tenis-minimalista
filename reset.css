@@ -1,0 +1,63 @@
+/* Reset CSS */
+
+/* Elementos HTML */
+
+html {
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+/* Reset de formulários */
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+	color: inherit;
+	opacity: 0.5;
+}
+
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+	color: inherit;
+	opacity: 0.5;
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+	color: inherit;
+	opacity: 0.5;
+}
+
+input::-ms-input-placeholder,
+textarea::-ms-input-placeholder {
+	color: inherit;
+	opacity: 0.5;
+}
+
+input::placeholder,
+textarea::placeholder {
+	color: inherit;
+	opacity: 0.5;
+}
+
+button, input, select, textarea {
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
+}
+
+/* Reset de links */
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
